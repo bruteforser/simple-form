@@ -1,7 +1,9 @@
 :root {
+  --space-tiny: 4px;
   --space-sm: 8px;
   --space-md: 16px;
   --space-lg: 24px;
+  --space-xlg: 36px;
 }
 
 body {
@@ -9,11 +11,11 @@ body {
   background: rgb(244, 244, 244);
   color: rgb(10, 10, 10);
   font-family: "Mozilla Text", sans-serif;
-  margin: auto var(--space-lg);
+  margin: auto var(--space-xlg);
 }
 
 fieldset {
-  margin: 20px 10px;
+  margin: var(--space-lg) var(--space-md);
 }
 
 label {
@@ -23,7 +25,7 @@ label {
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 1px solid yellow;
+  outline: 2px solid rgb(255, 255, 132);
 }
 
 #ratings-wrapper {
@@ -32,10 +34,19 @@ select:focus {
 }
 
 #ratings-wrapper input {
-  margin: auto 30px auto 10px;
+  margin: auto var(--space-md);
 }
 
 input[type="submit"] {
   font-size: 1.25em;
   margin-left: var(--space-lg);
+}
+
+#personal-info input {
+  margin: var(--space-lg) var(--space-tiny);
+  padding: 2px;
+}
+
+select {
+  padding: 2px;
 }
