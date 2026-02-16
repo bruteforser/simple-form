@@ -23,11 +23,13 @@
       <fieldset>
         <legend>Personal Information</legend>
         <label for="first-name">First name: </label>
-        <input id="first-name" type="text" />
+        <input id="first-name" type="text" required />
         <label for="last-name">Last name: </label>
         <input id="last-name" type="text" />
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" placeholder="example@domain.io">
         <label for="birth-date">Date of birth: </label>
-        <input id="birth-date" type="date" />
+        <input id="birth-date" type="date" required />
         <label for="gender">Gender: </label>
         <select id="gender">
           <option value="">&lt;select one&gt;</option>
@@ -38,22 +40,20 @@
       </fieldset>
       <fieldset>
         <legend>Recommendation</legend>
-        <label for="service-rating" name="service-rating"
-          >On a scale of 1 to 10, how would you say you feel about our customer
+        <label for="service-rating" name="service-rating">On a scale of 1 to 10, how would you say you feel about our customer
           services, 1 being completely dissatisfied and 10 being completely
-          satisfied?</label
-        >
+          satisfied?</label>
         <div id="ratings-wrapper">
-          <label for="service-rating">1</label><input name="service-rating" type="radio" value="1" />
-          <label for="service-rating">2</label><input name="service-rating" type="radio" value="2" />
-          <label for="service-rating">3</label><input name="service-rating" type="radio" value="3" />
-          <label for="service-rating">4</label><input name="service-rating" type="radio" value="4" />
-          <label for="service-rating">5</label><input name="service-rating" type="radio" value="5" />
-          <label for="service-rating">6</label><input name="service-rating" type="radio" value="6" />
-          <label for="service-rating">7</label><input name="service-rating" type="radio" value="7" />
-          <label for="service-rating">8</label><input name="service-rating" type="radio" value="8" />
-          <label for="service-rating">9</label><input name="service-rating" type="radio" value="9" />
-          <label for="service-rating">10</label><input name="service-rating" type="radio" value="10" />
+          <label for="service-rating">1</label><input name="service-rating" type="radio" value="1" required />
+          <label for="service-rating">2</label><input name="service-rating" type="radio" value="2" required />
+          <label for="service-rating">3</label><input name="service-rating" type="radio" value="3" required />
+          <label for="service-rating">4</label><input name="service-rating" type="radio" value="4" required />
+          <label for="service-rating">5</label><input name="service-rating" type="radio" value="5" required />
+          <label for="service-rating">6</label><input name="service-rating" type="radio" value="6" required />
+          <label for="service-rating">7</label><input name="service-rating" type="radio" value="7" required />
+          <label for="service-rating">8</label><input name="service-rating" type="radio" value="8" required />
+          <label for="service-rating">9</label><input name="service-rating" type="radio" value="9" required />
+          <label for="service-rating">10</label><input name="service-rating" type="radio" value="10" required />
         </div>
       </fieldset>
       <fieldset>
