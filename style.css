@@ -14,6 +14,13 @@ body {
   margin: auto var(--space-xlg);
 }
 
+.form-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: var(--space-md);
+}
+
 fieldset {
   margin: var(--space-lg) var(--space-md);
 }
@@ -38,7 +45,7 @@ select:focus {
 }
 
 input[type="submit"] {
-  font-size: 1.25em;
+  font-size: 1.125em;
   margin-left: var(--space-lg);
 }
 
