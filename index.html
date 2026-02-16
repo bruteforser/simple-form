@@ -22,7 +22,7 @@
     <form action="" method="get">
       <fieldset>
         <legend>
-          T
+          Personal Information
         </legend>
         <label for="first-name">First name: </label>
         <input id="first-name" type="text">
@@ -38,6 +38,28 @@
           <option value="other">Other</option>
         </select>
       </fieldset>
+      <fieldset>
+        <legend>Recommendation</legend>
+        <label for="service-rating" name="service-rating">On a scale of 1 to 10, how would you say you feel about our customer services, <code>1</code> being completely dissatisfied and <code>10</code> being completely satisfied?</label>
+        <br>
+        1 <input id="service-rating" name="service-rating" type="radio">
+        2 <input id="service-rating" name="service-rating" type="radio">
+        3 <input id="service-rating" name="service-rating" type="radio">
+        4 <input id="service-rating" name="service-rating" type="radio">
+        5 <input id="service-rating" name="service-rating" type="radio">
+        6 <input id="service-rating" name="service-rating" type="radio">
+        7 <input id="service-rating" name="service-rating" type="radio">
+        8 <input id="service-rating" name="service-rating" type="radio">
+        9 <input id="service-rating" name="service-rating" type="radio">
+        10 <input id="service-rating" name="service-rating" type="radio">
+      </fieldset>
+      <fieldset>
+        <legend>Feedback</legend>
+        <p>We are constantly looking for customer feedback on our services. Please provide more information on what you think we can improve:</p>
+        <textarea rows="5" cols="30" placeholder="Type your feedback here..."></textarea>
+      </fieldset>
+      <label for="submit-btn"></label>
+      <input id="submit-btn" type="submit" value="Send it">
     </form>
   </body>
 </html>
