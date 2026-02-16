@@ -24,10 +24,6 @@ fieldset {
   margin: auto 30px auto 10px;
 }
 
-#ratings-number {
-  margin-right: -14px;
-}
-
 input[type="submit"] {
   font-size: 1.25em;
 }
