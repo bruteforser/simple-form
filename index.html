@@ -21,15 +21,13 @@
     <p>Tell us more about your experience at <em>Jack's Pizzeria</em>.</p>
     <form action="" method="get">
       <fieldset>
-        <legend>
-          Personal Information
-        </legend>
+        <legend>Personal Information</legend>
         <label for="first-name">First name: </label>
-        <input id="first-name" type="text">
+        <input id="first-name" type="text" />
         <label for="last-name">Last name: </label>
-        <input id="last-name" type="text">
+        <input id="last-name" type="text" />
         <label for="birth-date">Date of birth: </label>
-        <input id="birth-date" type="date">
+        <input id="birth-date" type="date" />
         <label for="gender">Gender: </label>
         <select id="gender">
           <option value="">&lt;select one&gt;</option>
@@ -40,26 +38,38 @@
       </fieldset>
       <fieldset>
         <legend>Recommendation</legend>
-        <label for="service-rating" name="service-rating">On a scale of 1 to 10, how would you say you feel about our customer services, 1 being completely dissatisfied and 10 being completely satisfied?</label>
-        <br>
-        1 <input id="service-rating" name="service-rating" type="radio">
-        2 <input id="service-rating" name="service-rating" type="radio">
-        3 <input id="service-rating" name="service-rating" type="radio">
-        4 <input id="service-rating" name="service-rating" type="radio">
-        5 <input id="service-rating" name="service-rating" type="radio">
-        6 <input id="service-rating" name="service-rating" type="radio">
-        7 <input id="service-rating" name="service-rating" type="radio">
-        8 <input id="service-rating" name="service-rating" type="radio">
-        9 <input id="service-rating" name="service-rating" type="radio">
-        10 <input id="service-rating" name="service-rating" type="radio">
+        <label for="service-rating" name="service-rating"
+          >On a scale of 1 to 10, how would you say you feel about our customer
+          services, 1 being completely dissatisfied and 10 being completely
+          satisfied?</label
+        >
+        <div id="ratings-wrapper">
+          <label for="service-rating">1</label><input name="service-rating" type="radio" value="1" />
+          <label for="service-rating">2</label><input name="service-rating" type="radio" value="2" />
+          <label for="service-rating">3</label><input name="service-rating" type="radio" value="3" />
+          <label for="service-rating">4</label><input name="service-rating" type="radio" value="4" />
+          <label for="service-rating">5</label><input name="service-rating" type="radio" value="5" />
+          <label for="service-rating">6</label><input name="service-rating" type="radio" value="6" />
+          <label for="service-rating">7</label><input name="service-rating" type="radio" value="7" />
+          <label for="service-rating">8</label><input name="service-rating" type="radio" value="8" />
+          <label for="service-rating">9</label><input name="service-rating" type="radio" value="9" />
+          <label for="service-rating">10</label><input name="service-rating" type="radio" value="10" />
+        </div>
       </fieldset>
       <fieldset>
         <legend>Feedback</legend>
-        <p>We are constantly looking for customer feedback on our services. Please provide more information on what you think we can improve:</p>
-        <textarea rows="5" cols="30" placeholder="Type your feedback here..."></textarea>
+        <p>
+          We are constantly looking for customer feedback on our services.
+          Please provide more information on what you think we can improve:
+        </p>
+        <textarea
+          rows="5"
+          cols="50"
+          placeholder="Type your feedback here..."
+        ></textarea>
       </fieldset>
       <label for="submit-btn"></label>
-      <input id="submit-btn" type="submit" value="Send it">
+      <input id="submit-btn" type="submit" value="Send it" />
     </form>
   </body>
 </html>
