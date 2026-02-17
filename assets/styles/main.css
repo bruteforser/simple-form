@@ -182,9 +182,7 @@ section:not(#hero-section-ctn) {
 }
 
 .project-card {
-  width: auto;
-  
-  height: 400px;
+
   padding: 10px;
   border-radius: 4px;
   box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.5);
