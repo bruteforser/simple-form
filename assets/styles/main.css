@@ -135,6 +135,10 @@ section:not(#hero-section-ctn) {
   font-size: 40px;
 }
 
+.section-para {
+  font-size: 30px;
+}
+
 .card-image {
   width: 150px;
   aspect-ratio: 1 / 1;
@@ -170,6 +174,11 @@ section:not(#hero-section-ctn) {
 
 .card-container:not(img) {
   color: var(--primary-bg);
+}
+
+#project-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .project-card {
