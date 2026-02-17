@@ -176,15 +176,15 @@ section:not(#hero-section-ctn) {
   color: var(--primary-bg);
 }
 
-#project-container {
+#project-container-master {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
 .project-card {
-  width: 200px;
+  width: auto;
   
-  height: auto;
+  height: 400px;
   padding: 10px;
   border-radius: 4px;
   box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.5);
@@ -194,14 +194,30 @@ section:not(#hero-section-ctn) {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+  margin-left: 10px;
 }
 
 .pcard-1,
 .pcard-2,
 .pcard-3,
 .pcard-4 {
-  background: url(../images/project-1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.pcard-1 {
+  background-image: url(../images/project-1.png);
+}
+
+.pcard-2 {
+  background-image: url(../images/project-2.png);
+}
+
+.pcard-3 {
+  background-image: url(../images/project-3.png);
+}
+
+.pcard-4 {
+  background-image: url(../images/project-4.png);
 }
