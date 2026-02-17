@@ -182,8 +182,8 @@ section:not(#hero-section-ctn) {
 }
 
 .project-card {
-  background-color: var(--easy-white);
   width: 200px;
+  
   height: auto;
   padding: 10px;
   border-radius: 4px;
@@ -194,4 +194,14 @@ section:not(#hero-section-ctn) {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+}
+
+.pcard-1,
+.pcard-2,
+.pcard-3,
+.pcard-4 {
+  background: url(../images/project-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
