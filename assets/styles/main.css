@@ -3,6 +3,7 @@
   --secondary-bg: #285A62;
   --accent: #FAC35A;
   --muted-bg: #DEDEE3;
+  --easy-white: #EFEFEF;
 }
 
 *, *::before, *::after {
@@ -19,7 +20,20 @@ body {
 #header {
   display: flex;
   background-color: var(--primary-bg);
+  padding: 20px;
+  box-shadow: 2px 2px 2px rgba(1, 1, 1, 1);
+}
 
+#logo-ctn {
+  display: flex;
+  flex-direction: row;
+}
+
+#logo-ctn p {
+  align-self: center;
+  margin-left: 4px;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 #nav-bar {
@@ -31,6 +45,37 @@ body {
 #nav-bar li {
   list-style: none;
   margin: auto 10px;
+}
+
+.logo-txt-color {
+  color: var(--easy-white);
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: var(--easy-white);
+}
+
+#nav-bar a:link {
+
+}
+
+#nav-bar a:visited {
+  color: cya
+}
+
+#nav-bar a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+#nav-bar a:focus,
+#nav-bar a:visited {
+  color: rgb(122, 255, 255);
+}
+
+#nav-bar a:active {
+  
 }
 
 .accent-txt {
