@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Costumer satisfaction data collection form"
+    />
+    <link rel="stylesheet" href="assets/styles/form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jack's Pizza Customer Survey</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <h1>Jack's Pizzeria Customer Survey</h1>
+      <p>Tell us more about your experience at <em>Jack's Pizzeria</em>.</p>
+      <fieldset id="personal-info">
+        <legend>Personal Information</legend>
+        <div class="form-row">
+          <label for="first-name">First name: </label>
+          <input id="first-name" type="text" required />
+        </div>
+        <div class="form-row">
+          <label for="last-name">Last name: </label>
+          <input id="last-name" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@domain.io"
+          />
+        </div>
+        <div class="form-row">
+          <label for="birth-date">Date of birth: </label>
+          <input id="birth-date" type="date" required />
+        </div>
+        <div class="form-row">
+          <label for="gender">Gender: </label>
+          <select id="gender">
+            <option value="">&lt;select one&gt;</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset id="recommendation">
+        <legend>Recommendation</legend>
+        <p>
+          On a scale of 1 to 10, how would you say you feel about our customer
+          services, 1 being completely dissatisfied and 10 being completely
+          satisfied?
+        </p>
+        <div id="ratings-wrapper">
+          <input
+            id="rating-1"
+            name="service-rating"
+            type="radio"
+            value="1"
+            required
+          />
+          <label for="rating-1">1</label>
+          <input
+            id="rating-2"
+            name="service-rating"
+            type="radio"
+            value="2"
+            required
+          />
+          <label for="rating-2">2</label>
+          <input
+            id="rating-3"
+            name="service-rating"
+            type="radio"
+            value="3"
+            required
+          />
+          <label for="rating-3">3</label>
+          <input
+            id="rating-4"
+            name="service-rating"
+            type="radio"
+            value="4"
+            required
+          />
+          <label for="rating-4">4</label>
+          <input
+            id="rating-5"
+            name="service-rating"
+            type="radio"
+            value="5"
+            required
+          />
+          <label for="rating-5">5</label>
+          <input
+            id="rating-6"
+            name="service-rating"
+            type="radio"
+            value="6"
+            required
+          />
+          <label for="rating-6">6</label>
+          <input
+            id="rating-7"
+            name="service-rating"
+            type="radio"
+            value="7"
+            required
+          />
+          <label for="rating-7">7</label>
+          <input
+            id="rating-8"
+            name="service-rating"
+            type="radio"
+            value="8"
+            required
+          />
+          <label for="rating-8">8</label>
+          <input
+            id="rating-9"
+            name="service-rating"
+            type="radio"
+            value="9"
+            required
+          />
+          <label for="rating-9">9</label>
+          <input
+            id="rating-10"
+            name="service-rating"
+            type="radio"
+            value="10"
+            required
+          />
+          <label for="rating-10">10</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Feedback</legend>
+        <p>
+          We are constantly looking for customer feedback on our services.
+          Please provide more information on what you think we can improve:
+        </p>
+        <textarea
+          id="feedback"
+          rows="5"
+          cols="50"
+          placeholder="Type your feedback here..."
+        ></textarea>
+      </fieldset>
+      <label for="submit-btn"></label>
+      <button type="submit" id="submit-btn">Send it</button>
+    </form>
+  </body>
+</html>
